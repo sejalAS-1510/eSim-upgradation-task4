@@ -1,0 +1,27 @@
+eSim Task 4 – Quick Notes
+
+Target:
+- Install eSim 2.5 on Ubuntu VM
+- Find installation issues
+- Fix at least 1 issue
+
+Likely Errors:
+- python missing / version issue
+- llvm dependency error
+- missing libraries
+- script failures
+
+Quick Actions:
+- run install-eSim.sh
+- check terminal logs
+- edit script using nano
+- install missing packages via apt
+
+Fix Focus:
+- python → python3 replacement
+- dependency install using apt-get
+- comment broken lines in script
+
+Important:
+- save logs before fixing
+- document only final working fix in README
