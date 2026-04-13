@@ -1,27 +1,33 @@
-eSim Task 4 – Quick Notes
+eSim Task 4 – Installation Notes (FOSSEE 2026)
 
 Target:
 - Install eSim 2.5 on Ubuntu VM
-- Find installation issues
-- Fix at least 1 issue
+- Identify installation issues
+- Apply fixes for compatibility
 
-Likely Errors:
-- python missing / version issue
-- llvm dependency error
-- missing libraries
-- script failures
+System:
+- Ubuntu 24.04 LTS (VirtualBox)
+- Python 3.x environment
 
-Quick Actions:
-- run install-eSim.sh
-- check terminal logs
-- edit script using nano
-- install missing packages via apt
+Common Issues Observed:
+- python vs python3 conflict
+- missing system dependencies
+- outdated installation scripts
+- library compatibility errors
 
-Fix Focus:
-- python → python3 replacement
-- dependency install using apt-get
-- comment broken lines in script
+Process Followed:
+- Run install script (install-eSim.sh)
+- Monitor terminal errors carefully
+- Install missing dependencies using apt
+- Modify script using nano editor
+- Re-run installation after fixes
 
-Important:
-- save logs before fixing
-- document only final working fix in README
+Key Fix Applied:
+- Replaced deprecated "python" references with "python3"
+- Installed missing packages using apt-get
+- Adjusted script for Ubuntu 24.04 compatibility
+
+Important Notes:
+- Always save logs before modifying scripts
+- Document only final working solution in README
+- Keep screenshots of errors for proof
